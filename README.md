@@ -46,9 +46,15 @@ Use ```tracert``` (or ```traceroute```, depending on your OS) on the following s
 - www.microsoft.com
 
 ### Answer the following questions:
-- What was the target server's IP address?
-- How many hops were needed to reach the target?
+
+| Question                                       | www.amazon.com | www.google.com|www.microsoft.com|
+| ---------------------------------------------- | -------------- | ------------- | --------------- |
+| What was the target server's IP address?       | 23.45.229.96   | 142.251.33.68 | 23.216.81.152   |
+| How many hops were needed to reach the target? | 10             | 11            | 14              |
+
+
 - Can you identify your ISP from the intermediate server DNS names?
+Yes - Comcast
 - Identify the "class" of IP address for each major step in the trip
 
 
