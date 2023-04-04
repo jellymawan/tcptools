@@ -65,4 +65,12 @@ Yes - Comcast
 
 ## Extra credit: Using packet-capture tools (2 pts)
 
+## Extra credit: Insecure web server (2 pts)
+Download/install Wireshark
+- Navigate to http://150.230.36.255/
+- Submit the login form with any email and password while capturing packets with Wireshark.
+- Filter out any extraneous traffic so we see only the traffic to the server
+- Take a screen shot of Wireshark showing the payload you sent to the server
+- Store the screen shot in the Github repo
+<img width="955" alt="Screenshot 2023-04-03 at 10 37 37 PM" src="https://user-images.githubusercontent.com/62910852/229697649-43c76e11-caff-408e-98fb-b0f57caa659c.png">
 
