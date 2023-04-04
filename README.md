@@ -63,4 +63,6 @@ Yes - Comcast
 
 **www.microsoft**: Apart from my IP address (Class C) and the first hop (Class B), everything else is Class A
 
+## Extra credit: Using packet-capture tools (2 pts)
+
 
