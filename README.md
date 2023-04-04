@@ -56,8 +56,11 @@ Use ```tracert``` (or ```traceroute```, depending on your OS) on the following s
 - Can you identify your ISP from the intermediate server DNS names?
 Yes - Comcast
 - Identify the "class" of IP address for each major step in the trip
+- 
 **www.amazon.com**: Apart from my IP address (Class C) and the first hop (Class B), everything else is Class A
+
 **www.google.com**: My IP address is Class C and the first hop is Class B. As it hops around, it stays mostly as a Class A IP address. Once its in the google network, it becomes a Class B IP address.
+
 **www.microsoft**: Apart from my IP address (Class C) and the first hop (Class B), everything else is Class A
 
 
