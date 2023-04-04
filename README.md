@@ -52,7 +52,6 @@ Use ```tracert``` (or ```traceroute```, depending on your OS) on the following s
 | What was the target server's IP address?       | 23.45.229.96   | 142.251.33.68 | 23.216.81.152   |
 | How many hops were needed to reach the target? | 10             | 11            | 14              |
 
-
 - Can you identify your ISP from the intermediate server DNS names?
 Yes - Comcast
 - Identify the "class" of IP address for each major step in the trip
@@ -64,6 +63,11 @@ Yes - Comcast
 **www.microsoft**: Apart from my IP address (Class C) and the first hop (Class B), everything else is Class A
 
 ## Extra credit: Using packet-capture tools (2 pts)
+Capture the DHCP traffic for your laptop
+- Filter out any extraneous traffic so we see only the DHCP traffic
+- Submit a screenshot of the DORA process and the lease time offered by the DHCP server.
+
+<img width="1512" alt="Screenshot 2023-04-04 at 12 42 39 PM" src="https://user-images.githubusercontent.com/62910852/229902554-4e6712d5-819a-48bc-b016-2f4535289068.png">
 
 ## Extra credit: Insecure web server (2 pts)
 Download/install Wireshark
